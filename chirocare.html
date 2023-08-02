@@ -15,9 +15,9 @@
         <nav>
             <ul>
                 <li><a href="">Book Now</a></li>
-                <li><a href="">Book Now</a></li>
-                <li><a href="">Book Now</a></li>
-                <li><a href="">Book Now</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
 
         </nav>
@@ -49,23 +49,22 @@
         <fieldset>
 
           <label for="name">Name:</label>
-          <input type="text" name="name" id="name" placeholder="Full Name">
+          <input type="text" name="name" id="name" placeholder="Full Name" required>
           <label for="email">Email</label>
-          <input type="text" name="email" id="email" placeholder="enter your email">
+          <input type="text" name="email" id="email" placeholder="enter your email" required><br>
           <label for="Contact-phone">Contact Phone</label>
-          <input type="number" name="Contact-phone" id="Contact-phone">
+          <input type="number" name="Contact-phone" id="Contact-phone" placeholder="Mobile Preferred"required>
           <label for="practitioner-selection">Practitioner</label>
-          <select id="practitioner-selection">
+          <select id="practitioner-selection" required>
           <option value="Dr. Abbey Citizen">Dr. Abbey Citizen</option>
         <option value="Dr. Brent Citizen">Dr. Brent Citizen</option>
         <option value="Dr. Chris Citizen">Dr. Chris Citizen</option>
-        <option value="Dr. Donna Citizen">Dr. Donna Citizen</option>
-    
-    </select>
+        <option value="Dr. Donna Citizen">Dr. Donna Citizen</option>    </select><br>
         <label for="date">Date:</label>
-        <input type="date" id="date" name="date" min="2023-01-01" max="2025-12-31">
+        <input type="date" id="date" name="date" min="2023-01-01" max="2025-12-31" required>
         <label for="time">Time</label>
-        <input type="time" id="time" name="time" min="09:00" max="18:00" required>
+        <input type="time" id="time" name="time" min="09:00" max="18:00" required><br>
+        <input type="submit" value="Submit">
         </fieldset>
     </form>
     </section>
