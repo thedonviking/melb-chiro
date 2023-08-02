@@ -20,6 +20,11 @@ nav ul {
     
 }
 
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
     margin: 0px;
 
@@ -31,9 +36,7 @@ nav li {
     font-weight: 700;
 }
 
-main img {
-    width: 100%;
-}
+
 
 .hero {
     padding-left: 50px;
@@ -57,21 +60,49 @@ h1 {
 }
 
 main {
-    background-image: image("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/health/wp-content/uploads/2021/09/Chiropractor_Adjustments.jpeg");
-    
+    background-image: url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/health/wp-content/uploads/2021/09/Chiropractor_Adjustments.jpeg");
+    padding-top: 150px;
+    padding-bottom: 150px;
+    object-fit: cover;
 }
 .conditions {
     padding-left: 50px;
+
+    
 }
 
-.conditions-list ul {
-    padding-left: 50px;
-    list-style: none;
+.conditions h2 {
+    color: #00006B;
+}
 
+.conditions-list {
+    display: flex;
+    padding: 0;
+}
+.conditions-list ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.conditions-list li {
+    list-style: none;
+    padding-right: 10px;
+    text-align: center;
 }
 
 .form {
     padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.form h2 {
+    color: #00006B;
+
 }
 
 .our-team {
@@ -79,6 +110,8 @@ main {
     padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+
+
 }
 
 .our-team p,h2 {
@@ -87,20 +120,31 @@ main {
 
 }
 
-.our-team ul {
+.our-team-list {
     display: flex;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 0px;
+
 }
 
-.our-team li {
+.our-team-list ul {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+
+}
+
+.our-team-list li {
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 35px;
+    text-align: center;
 }
 .our-team img {
     border-radius: 100%;
     
 }
+
 
 .location {
     padding-left: 50px;
@@ -123,8 +167,14 @@ footer {
     
 } */
 
+footer ul {
+    display: flex;
+}
+
 footer li {
     list-style: none;
     color: white;
+    justify-items: flex-end;
+    padding-right: 30px;
 }
 
