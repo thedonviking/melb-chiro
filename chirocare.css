@@ -1,0 +1,130 @@
+header {
+    background-color: #FF7900;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header img {
+
+} */
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: white;
+    font-weight: 500;
+    
+}
+
+body {
+    margin: 0px;
+
+}
+
+nav li {
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+main img {
+    width: 100%;
+}
+
+.hero {
+    padding-left: 50px;
+
+}
+
+.hero button {
+    color: white;
+    background-color: #FF7900;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 1%;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #FF7900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background-image: image("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/health/wp-content/uploads/2021/09/Chiropractor_Adjustments.jpeg");
+    
+}
+.conditions {
+    padding-left: 50px;
+}
+
+.conditions-list ul {
+    padding-left: 50px;
+    list-style: none;
+
+}
+
+.form {
+    padding-left: 50px;
+}
+
+.our-team {
+    background-color: #FF7900;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.our-team p,h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.our-team ul {
+    display: flex;
+}
+
+.our-team li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.our-team img {
+    border-radius: 100%;
+    
+}
+
+.location {
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.location h2 {
+    color: #FF7900;
+}
+
+footer {
+    padding-top: 10px;
+    background-color: #00006B;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+/* footer img {
+    
+} */
+
+footer li {
+    list-style: none;
+    color: white;
+}
+
