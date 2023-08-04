@@ -9,6 +9,8 @@ header {
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 nav ul {
@@ -17,9 +19,7 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    color: white;
-    font-weight: 500;
-    
+    color: white;    
 }
 
 nav a {
@@ -33,14 +33,6 @@ nav li {
     font-weight: 700;
 }
 
-
-
-.hero {
-    padding-left: 50px;
-    
-
-}
-
 .hero button {
     color: white;
     background-color: #FF7900;
@@ -49,6 +41,12 @@ nav li {
     font-size: 14px;
     padding: 1%;
     font-weight: 600;
+    transition: transform .4s ease-in-out;
+
+}
+
+button:hover {
+    transform: scale(1.1);
 }
 
 h1 {
@@ -56,6 +54,11 @@ h1 {
     font-size: 36px;
 
 }
+
+h2 {
+    font-size: 28px;
+}
+
 
 .hero a {
     text-decoration: none;
@@ -68,6 +71,8 @@ main {
     padding-bottom: 150px;
     object-fit: cover;
     background-size: cover;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .conditions {
     padding-left: 50px;
@@ -98,7 +103,7 @@ main {
 
 .conditions-list li {
     list-style: none;
-    padding-right: 10px;
+    padding-right: 35px;
     text-align: center;
 
 }
@@ -119,6 +124,8 @@ main {
 fieldset {
     border-radius: 5px;
     border-style: solid;
+    
+
 }
 
 input[type=text], [type=number], [type=select], [type=date], [type=time] {
@@ -182,9 +189,8 @@ input[type=submit] {
 
 
 .location {
-    padding-left: 50px;
-    padding-bottom: 50px;
-
+    padding: 50px;
+    padding-bottom: 100px;
 }
 
 .location h2 {
@@ -197,6 +203,15 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
+    padding-right: 50px;
+
+    
+}
+
+footer a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 /* footer img {
