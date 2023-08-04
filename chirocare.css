@@ -36,8 +36,8 @@ nav li {
 .hero button {
     color: white;
     background-color: #FF7900;
-    border: 2px solid white;
-    border-radius: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
     font-size: 14px;
     padding: 1%;
     font-weight: 600;
@@ -96,7 +96,7 @@ main {
 
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
 
 }
@@ -109,9 +109,7 @@ main {
 }
 
 .form {
-    padding-left: 50px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding: 50px;
     color: #00006B;
 
 }
@@ -124,11 +122,13 @@ main {
 fieldset {
     border-radius: 5px;
     border-style: solid;
+    margin: 0;
+
     
 
 }
 
-input[type=text], [type=number], [type=select], [type=date], [type=time] {
+input[type=text], [type=tel], [type=select], [type=date], [type=time] {
     width: 40%;
     padding: 5px;
     border: 1px solid #ccc; 
@@ -136,7 +136,14 @@ input[type=text], [type=number], [type=select], [type=date], [type=time] {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
+    display: flex;
 }
+
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 
 input[type=submit] {
     background-color: #00006B;
@@ -146,7 +153,9 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     margin-top: 15px;
-    width: 50%;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .our-team {
@@ -172,7 +181,7 @@ input[type=submit] {
 
 .our-team-list ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -191,11 +200,18 @@ input[type=submit] {
 .location {
     padding: 50px;
     padding-bottom: 100px;
+    
 }
 
+.location a {
+    text-decoration: none;
+    color: #00006B;
+}
 .location h2 {
     color: #FF7900;
 }
+
+
 
 footer {
     padding-top: 10px;
