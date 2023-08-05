@@ -4,6 +4,13 @@ body {
 
 }
 
+blockquote {
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 500;
+    color: darkgray;
+}
+
 header {
     background-color: #FF7900;
     padding: 1%;
@@ -37,7 +44,7 @@ nav li {
     color: white;
     background-color: #FF7900;
     border: 1px solid white;
-    border-radius: 30px;
+    border-radius: 15px;
     font-size: 14px;
     padding: 1%;
     font-weight: 600;
@@ -231,6 +238,11 @@ input[type=submit] {
 }
 .location h2 {
     color: #FF7900;
+}
+
+.hours {
+    display: grid;
+    grid-template-rows: 1fr;
 }
 
 

@@ -26,7 +26,7 @@
     <main>
         <section class="hero">
             <p><h1>It's time to live pain-free</h1></p>
-            <p><h1>long-term</h1></p>
+            <p><h1><i>long-term</i></h1></p>
             <button><a href="#">Book Consultation With Our Team</a></button>
 
         </section>
@@ -60,12 +60,25 @@
                     <input type="text" name="email" id="email" placeholder="Enter your email" required>
                 <label for="Contact-phone">Contact Phone</label>
                     <input type="tel" name="Contact-phone" id="Contact-phone" placeholder="Mobile Preferred"required>
-                <label for="practitioner-selection">Practitioner</label>
-                    <select id="practitioner-selection" required>
+                <!-- <label for="practitioner-selection">Practitioner</label>
+                    <select id="practitioner-selection">
+                        
                         <option value="Dr. Abbey Citizen">Dr. Abbey Citizen</option>
                         <option value="Dr. Brent Citizen">Dr. Brent Citizen</option>
                         <option value="Dr. Chris Citizen">Dr. Chris Citizen</option>
-                        <option value="Dr. Donna Citizen">Dr. Donna Citizen</option>    </select><br></br>
+                        <option value="Dr. Donna Citizen">Dr. Donna Citizen</option>    </select><br></br> -->
+                <label for="practitioner-selection">Choose Specialist:</label><br></br>
+                <input type="radio" id="contactChoice1" name="contact" value="email" />
+                <label for="contactChoice1">Dr. Abbey Citizen</label>
+                  
+                <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                <label for="contactChoice2">Dr. Brent Citizen</label>
+                  
+                <input type="radio" id="contactChoice3" name="contact" value="mail" />
+                <label for="contactChoice3">Dr. Chris Citizen</label>
+
+                <input type="radio" id="contactChoice4" name="contact" value="email" />
+                <label for="contactChoice4">Dr. Donna Citizen</label><br></br>
                 <label for="date">Date</label>
                     <input type="date" id="date" name="date" min="2023-01-01" max="2025-12-31" required>
                 <label for="time">Time</label>
@@ -79,22 +92,30 @@
     <section class="our-team">
         <h2>Our Team of Specialists</h2>
         <ul class="our-team-list">
-        <li><a href="#"><img src="https://www.vikingfoodsolutions.com.au/wp-content/uploads/2023/08/abbey.jpg" alt=""></a><h3>Dr Abbey Citizen</h3></li>
-        <li><a href="#"><img src="https://www.vikingfoodsolutions.com.au/wp-content/uploads/2023/08/brent.jpg" alt=""></a><h3>Dr Brent Citizen</h3></li>
-        <li><a href="#"><img src="https://www.vikingfoodsolutions.com.au/wp-content/uploads/2023/08/chris.jpg" alt=""></a><h3>Dr Chris Citizen</h3></li>
-        <li><a href="#"><img src="https://www.vikingfoodsolutions.com.au/wp-content/uploads/2023/08/donna-1.jpg" alt=""></a><h3>Dr Donna Citizen</h3></li>
+        <li><a href="#"><img src="https://www.vikingfoodsolutions.com.au/wp-content/uploads/2023/08/abbey.jpg" alt=""></a><h3>Dr Abbey Citizen</h3><p>Sports injuries & occupational therapy</p></li>
+        <li><a href="#"><img src="https://www.vikingfoodsolutions.com.au/wp-content/uploads/2023/08/brent.jpg" alt=""></a><h3>Dr Brent Citizen</h3><p>Occupational therapy & sleep apneoa</p></li>
+        <li><a href="#"><img src="https://www.vikingfoodsolutions.com.au/wp-content/uploads/2023/08/chris.jpg" alt=""></a><h3>Dr Chris Citizen</h3><p>Sports injuries & occupational therapy</p></li>
+        <li><a href="#"><img src="https://www.vikingfoodsolutions.com.au/wp-content/uploads/2023/08/donna-1.jpg" alt=""></a><h3>Dr Donna Citizen</h3><p>Occupational therapy & sleep apneoa</p></li>
     </ul>
 
     </section>
 
 
     <section class="location">
-        <h2>Locations</h2>
+        <h2>Opening Hours & Locations</h2>
         <p><a href="#">360 Lonsdale Street, East Melbourne VIC 3002</a></p>
-        <p><a href="#">360 Lonsdale Street, East Melbourne VIC 3002</a></p>
-        <p><a href="#">360 Lonsdale Street, East Melbourne VIC 3002</a></p>
-        <p><a href="#">360 Lonsdale Street, East Melbourne VIC 3002</a></p>
+            <section class="hours">
+        <p><b>Monday</b>: 8am - 4pm</p>
+        <p><b>Tuesday</b>: 7am - 4pm</p>
+        <p><b>Wednesday</b>: 7am - 4pm</p>
+        <p><b>Thursday</b>: 7am - 4pm</p>
+        <p><b>Friday</b>: 8am - 4pm</p>
+        <p><b>Saturday</b>: 7am - 1pm</p>
+        <p><b>Sunday</b>: CLOSED</p>
+            </section>
         <br></br>
+
+        <blockquote>Live pain-free <i>long-term</i></blockquote>
 
     </section>
     <footer>
