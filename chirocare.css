@@ -6,7 +6,7 @@ body {
 
 header {
     background-color: #FF7900;
-    padding: 10px;
+    padding: 1%;
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
@@ -41,22 +41,26 @@ nav li {
     font-size: 14px;
     padding: 1%;
     font-weight: 600;
-    transition: transform .4s ease-in-out;
+    transition: transform .5s ease-in-out;
 
 }
 
 button:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 h1 {
-    color: white;
-    font-size: 36px;
+    color: #00006B;
+    font-size: 3rem;
 
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
 }
 
 
@@ -65,46 +69,60 @@ h2 {
     color: white;
 }
 
+.hero {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
 main {
-    background-image: url("https://www.aurorahealthcare.org/assets/images/background/chiropractor-header.jpg");
-    padding-top: 150px;
-    padding-bottom: 150px;
+    background-image: url("https://www.vikingfoodsolutions.com.au/wp-content/uploads/2023/08/chiro-care-background-alt.jpg");
+    /* padding-top: 5%; */
+    /* padding-bottom: 5%; */
     object-fit: cover;
     background-size: cover;
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.about-text {
+    text-align: center;
+    padding: 2%;
+}
+
 .conditions {
     padding-left: 50px;
+    padding-right: 50px;
     padding-top: 20px;
-    color: #00006B;
-
-
-    
+    color: #FF7900;
+   
 }
 
 .conditions h2 {
-    color: #00006B;
+    color: #FF7900;
 }
 
 .conditions-list {
     display: flex;
-    padding: 0;
     padding-top: 20px;
 }
-.conditions-list ul {
 
+.conditions-list img {
+    /* object-fit: fill; */
+    /* max-width: 400px; */
+    max-block-size: 400px;
+    border-radius: 50%;
+}
+
+.conditions-list ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-
-
 }
 
 .conditions-list li {
     list-style: none;
     padding-right: 35px;
     text-align: center;
+    justify-content: center;
 
 }
 
@@ -119,13 +137,10 @@ main {
 
 }
 
+
 fieldset {
-    border-radius: 5px;
-    border-style: solid;
-    margin: 0;
-
-    
-
+    border: none;
+    margin: 0px;
 }
 
 input[type=text], [type=tel], [type=select], [type=date], [type=time] {
@@ -138,6 +153,7 @@ input[type=text], [type=tel], [type=select], [type=date], [type=time] {
     margin-bottom: 16px;
     display: flex;
 }
+
 
 ::placeholder {
     font-family: 'Montserrat', sans-serif;
@@ -155,6 +171,7 @@ input[type=submit] {
     margin-top: 15px;
     width: 40%;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 
 }
 
@@ -176,7 +193,8 @@ input[type=submit] {
     display: flex;
     color: white;
     padding-left: 0px;
-
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .our-team-list ul {
@@ -192,7 +210,11 @@ input[type=submit] {
     text-align: center;
 }
 .our-team img {
-    border-radius: 100%;
+    border-radius: 50%;
+    max-width: 400px fit-content;
+    max-height: 400px;
+
+    /* object-fit: cover; */
     
 }
 
