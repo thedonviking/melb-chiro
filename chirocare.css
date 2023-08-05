@@ -68,6 +68,7 @@ h2 {
 
 p {
     font-size: 1rem;
+    color: #00006B;
 }
 
 
@@ -118,7 +119,12 @@ main {
     /* max-width: 400px; */
     max-block-size: 400px;
     border-radius: 50%;
+    transition: 0.3s;
 }
+
+.conditions-list img:hover {
+    transform: scale(1.05);
+  }
 
 .conditions-list ul {
     list-style: none;
@@ -191,6 +197,9 @@ input[type=submit] {
 
 }
 
+
+
+
 .our-team p,h2 {
     color: white;
 
@@ -220,10 +229,17 @@ input[type=submit] {
     border-radius: 50%;
     max-width: 400px fit-content;
     max-height: 400px;
+    transition: 0.3s;
 
     /* object-fit: cover; */
     
 }
+
+
+
+.our-team-list img:hover {
+    transform: scale(1.05);
+  }
 
 
 .location {
