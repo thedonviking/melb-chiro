@@ -111,7 +111,7 @@ main {
 
 .conditions-list {
     display: flex;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .conditions-list img {
@@ -129,13 +129,15 @@ main {
 .conditions-list ul {
     list-style: none;
     display: flex;
+
 }
 
 .conditions-list li {
     list-style: none;
-    padding-right: 35px;
     text-align: center;
     justify-content: center;
+    width: 100%;
+    column-gap: 30px;
 
 }
 
