@@ -1,4 +1,4 @@
-body {
+body#page {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 
@@ -13,14 +13,14 @@ blockquote {
 
 header {
     background-color: #FF7900;
-    padding: 1%;
+    /* padding: 1%;
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 50px; */
 }
 
-nav ul {
+/* nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,7 +38,7 @@ nav a {
 nav li {
     padding-right: 30px;
     font-weight: 700;
-}
+} */
 
 .hero button {
     color: white;
@@ -112,7 +112,10 @@ main {
 .conditions-list {
     display: flex;
     /* padding-top: 20px; */
+    flex-direction: column;
 }
+
+
 
 .conditions-list img {
     /* object-fit: fill; */
@@ -130,6 +133,7 @@ main {
     list-style: none;
     display: flex;
 
+
 }
 
 .conditions-list li {
@@ -138,8 +142,10 @@ main {
     justify-content: center;
     width: 100%;
     column-gap: 30px;
-
 }
+
+
+
 
 .form {
     padding: 50px;
@@ -151,7 +157,6 @@ main {
     color: #00006B;
 
 }
-
 
 fieldset {
     border: none;
@@ -220,6 +225,8 @@ input[type=submit] {
     padding-left: 0px;
     padding-top: 3%;
     padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
 }
 
 .our-team-list ul {
@@ -233,7 +240,10 @@ input[type=submit] {
     padding-left: 0px;
     padding-right: 35px;
     text-align: center;
+
+
 }
+
 .our-team img {
     border-radius: 50%;
     max-width: 400px fit-content;
@@ -273,8 +283,8 @@ input[type=submit] {
 .hours-map {
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr;
 }
+
 
 .map {
     padding: 50px;
@@ -311,4 +321,25 @@ footer li {
     justify-items: flex-end;
     padding-right: 30px;
 }
+
+
+/* DESKTOP CSS */
+
+@media (min-width: 1280px) {
+    .conditions-list, .our-team-list{
+        flex-direction: row; 
+    }
+    
+    .hours-map {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* .container-fluid {
+        display: flex;
+        justify-content: space-between;
+    } */
+    
+}
+
+
 
