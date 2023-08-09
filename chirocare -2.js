@@ -4,7 +4,16 @@ document.querySelector("#form").addEventListener("submit",
         alert("Thank you for your submission")
     })
 
-var contactform=document.querySelector("#form")
+
+document.querySelector("#footer-form").addEventListener("submit",
+    function(event){
+        event.preventDefault();
+        alert("Thank you for your submission")
+    })
+
+    
+
+var contactform=document.querySelector("#footer-form")
     console.log(contactform.style.display)
 contactform.style.display="none"
 
@@ -14,3 +23,4 @@ var contactbtn=document.querySelector("#contactbtn")
             contactform.style.display="block"
         }
     )
+
