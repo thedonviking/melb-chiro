@@ -10,7 +10,6 @@ document.querySelector("#footer-form").addEventListener("submit",
         event.preventDefault();
         alert("Thank you for your submission")
     })
-
     
 
 var contactform=document.querySelector("#footer-form")

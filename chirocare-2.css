@@ -10,7 +10,6 @@ body {
 h1 {
     color: white;
     font-size: 3rem;
-
 }
 
 h2 {
@@ -50,7 +49,6 @@ nav a {
     text-decoration: none;
     color: white;
 }
-
 
 nav li {
     padding-right: 30px;
@@ -113,15 +111,10 @@ main {
 
 .conditions-list {
     display: flex;
-    /* padding-top: 20px; */
     flex-direction: column;
 }
 
-
-
 .conditions-list img {
-    /* object-fit: fill; */
-    /* max-width: 400px; */
     max-block-size: 400px;
     border-radius: 50%;
     transition: 0.3s;
@@ -131,13 +124,6 @@ main {
     transform: scale(1.05);
   }
 
-.conditions-list ul {
-    list-style: none;
-    display: flex;
-
-
-}
-
 .conditions-list li {
     list-style: none;
     text-align: center;
@@ -145,9 +131,6 @@ main {
     width: 100%;
     column-gap: 30px;
 }
-
-
-
 
 .form {
     padding: 50px;
@@ -157,7 +140,6 @@ main {
 
 .form h2 {
     color: #00006B;
-
 }
 
 fieldset {
@@ -207,8 +189,6 @@ input[type=text], [type=tel], [type=select] {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 input[type=submit] {
     background-color: #00006B;
     color: white;
@@ -236,18 +216,11 @@ input[type=submit] {
 
 .our-team-list {
     display: flex;
+    justify-content: center;
     color: white;
     padding-left: 0px;
     padding-top: 3%;
     padding-bottom: 3%;
-    display: flex;
-    flex-direction: column;
-}
-
-.our-team-list ul {
-    display: flex;
-    justify-content: center;
-
 }
 
 .our-team-list li {
@@ -255,8 +228,6 @@ input[type=submit] {
     padding-left: 0px;
     padding-right: 35px;
     text-align: center;
-
-
 }
 
 .our-team img {
@@ -266,8 +237,6 @@ input[type=submit] {
     transition: 0.3s;
 }
 
-
-
 .our-team-list img:hover {
     transform: scale(1.05);
   }
@@ -276,7 +245,6 @@ input[type=submit] {
 .location {
     padding: 50px;
     padding-bottom: 100px;
-    
 }
 
 .location a {
@@ -329,9 +297,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
-    padding-right: 50px;
-
-    
+    padding-right: 50px;    
 }
 
 footer a {
@@ -360,12 +326,18 @@ footer li a:hover {
 /* DESKTOP CSS */
 
 @media (min-width: 1280px) {
-    .conditions-list, .our-team-list{
+    .conditions-list {
         flex-direction: row; 
     }
-    
+
     .hours-map {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1280px) {
+    .our-team-list {
+        flex-direction: column;
     }
     
 }
